@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ObstetTools</string>
+
+    <string name="navigation_drawer_open">Abrir navegação</string>
+    <string name="navigation_drawer_close">Fechar navegação</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="about_title">Informação</string>
+    <string name="about_prop"><i>INFORMATION TECHNOLOGY SOLUTIONS</i></string>
+    <string name="phone_number">+1(647)986-1602</string>
+    <string name="about_bt">    Fechar   </string>
+    <string name="site">www.humber.ca</string>
+    <string name="email"><b>eduardo.quadrado@yahoo.ca</b></string>
+    <string name="Hint_EtNum2">Sem</string>
+    <string name="Hint_EtNum3">Dias</string>
+    <string name="Texto_btDum">D.U.M.</string>
+    <string name="Texto_btUsg">USG Ant</string>
+    <string name="Texto_btBiometria">Biometria</string>
+    <string name="Hint_EtResultado">Resultado</string>
+    <string name="about_autor">Autor: Eduardo Quadrado</string>
+    <string name="about_contato"><b>contato: eduardoquadrado@yahoo.com.br</b></string>
+    <string name="about_text">
+Este aplicativo visa auxiliar nos cálculos obstétricos relacionados à biometria 
+fetal e tabelas de normalidade além da pesquisa de nomenclatura de alterações fetais, 
+não devendo ser utilizado para emissão de laudos e definição de condutas obstétricas.
+    </string>
+    <string name="Txt_bioDBP">D.B.P.</string>
+    <string name="Txt_bioDOF">D.O.F.</string>
+    <string name="Txt_bioAbdAP">Abd AP</string>
+    <string name="Txt_bioAbdT">Abd T</string>
+    <string name="Txt_bioAbdCA">Abd CA</string>
+    <string name="Txt_bioFem">Fêmur</string>
+    <string name="Txt_bioUm">Úmero</string>
+    <string name="Txt_bioPeso1">Peso 1</string>
+    <string name="Txt_bioPeso2">Peso 2</string>
+    <string name="Txt_bioPeso3">Peso 3</string>
+
+    <string name="titulo1">Pesquisar dados no CID 10</string>
+    <string name="descricao">Descrição</string>
+    <string name="codigo">Código</string>
+    <string name="indif">Indiferente</string>
+    <string name="masc">Mascul.</string>
+    <string name="fem">Femin.</string>
+    <string name="textoPesquisa">Descrição ou código</string>
+    <string name="botao">Pesquisar</string>
+
+</resources>

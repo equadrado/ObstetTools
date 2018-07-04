@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calc_bas"
+            android:icon="@drawable/calc3d"
+            android:title="Standard Values" />
+        <item
+            android:id="@+id/nav_biometric"
+            android:icon="@drawable/biometric"
+            android:title="Biometric" />
+
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/tool3d"
+            android:title="Tools" >
+            <menu>
+                <item
+                    android:id="@+id/nav_icd10"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Search ICD 10" />
+                <item
+                    android:id="@+id/nav_calculator"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Calculator" />
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/cast_ic_expanded_controller_play"
+                android:title="Show map" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/email"
+                android:title="Contact us" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="About" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_exit"
+        android:icon="@drawable/exit"
+        android:title="Exit" />
+</menu>

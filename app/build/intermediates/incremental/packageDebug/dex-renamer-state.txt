@@ -1,0 +1,7 @@
+#Sat Apr 07 00:23:53 EDT 2018
+base.0=/Users/equadrado/AndroidStudioProjects/ObstetTools/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bb952e80bf1e63b8ba654c6af239f82d4642ec62
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/equadrado/AndroidStudioProjects/ObstetTools/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_061402a7fb573478937437806d06662e0400dd59/classes.dex
+base.1=/Users/equadrado/AndroidStudioProjects/ObstetTools/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_061402a7fb573478937437806d06662e0400dd59
+file.0=/Users/equadrado/AndroidStudioProjects/ObstetTools/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bb952e80bf1e63b8ba654c6af239f82d4642ec62/classes.dex

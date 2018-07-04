@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:centerColor="#d8a94f"
+                android:endColor="#cd9c0e"
+                android:startColor="#e0dca6"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- main color -->
+    <item
+        android:bottom="1.5dp"
+        android:left="1.5dp"
+        android:right="1.5dp">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:centerColor="#d8a94f"
+                android:endColor="#cd9c0e"
+                android:startColor="#e0dca6"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- draw another block to cut-off the left and right bars -->
+    <item android:bottom="5.0dp">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:centerColor="#d8a94f"
+                android:endColor="#cd9c0e"
+                android:startColor="#e0dca6"
+                android:type="linear" />
+        </shape>
+    </item>
+
+</layer-list>

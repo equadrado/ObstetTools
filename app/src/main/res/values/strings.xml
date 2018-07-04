@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ObstetTools</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="about_title">Information</string>
+    <string name="about_prop"><i>INFORMATION TECHNOLOGY SOLUTIONS</i></string>
+    <string name="about_bt">    Close   </string>
+    <string name="phone_number">+1(647)986-1602</string>
+    <string name="site">www.humber.ca</string>
+    <string name="email"><b>eduardo.quadrado@yahoo.ca</b></string>
+    <string name="Hint_EtNum2">Week</string>
+    <string name="Hint_EtNum3">Days</string>
+    <string name="Texto_btDum">L.M.P.</string>
+    <string name="Texto_btBiometria">Biometry</string>
+    <string name="Hint_EtResultado">Results</string>
+    <string name="about_autor">Author: Eduardo Quadrado</string>
+    <string name="about_contato"><b>eduardoquadrado@yahoo.com.br</b></string>
+    <string name="about_text">This application aims to assist in the obstetric calculations related to biometrics
+Fetal and normality tables in addition to the nomenclature search for fetal changes,
+And should not be used for the issuance of reports and definition of obstetric decisions.
+    </string>
+    <string name="Txt_bioDBP">B.P.D.</string>
+    <string name="Txt_bioDOF">O.F.D.</string>
+    <string name="Txt_bioAbdAP">Abd AP</string>
+    <string name="Txt_bioAbdT">Abd T</string>
+    <string name="Txt_bioAbdCA">Abd CA</string>
+    <string name="Txt_bioFem">Femur</string>
+    <string name="Txt_bioUm">Umerus</string>
+    <string name="Txt_bioPeso1">Weight 1</string>
+    <string name="Txt_bioPeso2">Weight 2</string>
+    <string name="Txt_bioPeso3">Weight 3</string>
+
+    <string name="titulo1">Search data in ICD 10</string>
+    <string name="descricao">Description</string>
+    <string name="codigo">Code</string>
+    <string name="indif">No filter</string>
+    <string name="masc">Male</string>
+    <string name="fem">Female</string>
+    <string name="textoPesquisa">Description or code</string>
+    <string name="botao">Search</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

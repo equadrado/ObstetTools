@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_date_calcs"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.equadrado.obstettools.DateCalcsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/rgCalcType"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <RadioButton
+                android:text="L.M.P."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbLPM"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:checked="true" />
+
+            <RadioButton
+                android:text="Exam Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbExamDate"
+                android:layout_weight="1"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <DatePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dpMainDate"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="25dp">
+
+            <EditText
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="2"
+                android:id="@+id/edtTxtWeek"
+                android:textSize="30sp"
+                android:maxLength="2"
+                android:text="00"
+                android:layout_width="50dp"
+                android:layout_gravity="right" />
+
+            <TextView
+                android:text="Weeks"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView2"
+                android:labelFor="@+id/edtTxtWeek"
+                android:textSize="30sp"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp">
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/edtTxtDay"
+                android:textSize="30sp"
+                android:maxLength="1"
+                android:text="0"
+                android:layout_width="48dp" />
+
+            <TextView
+                android:text="Days"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView3"
+                android:layout_weight="1"
+                android:labelFor="@+id/edtTxtDay"
+                android:textSize="30sp"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtViewResults"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
